@@ -6,6 +6,27 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="container">
+      <form action="" id="form">
+        <h1 class="text-center-form">Form Validation</h1>
+        <div class="input-control">
+          <label for="username">Username</label> <br />
+          <input type="text" id="username" name="username" />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="email">Email</label> <br />
+          <input type="email" id="email" name="email" />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="password">Password</label> <br />
+          <input type="password" id="password" name="password" />
+          <div class="error"></div>
+        </div>
+        <button class="submit">Sign Up</button>
+      </form>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
