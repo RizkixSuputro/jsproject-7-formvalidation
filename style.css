@@ -30,7 +30,7 @@ body {
 }
 .input-control label {
   font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
+  font-size: 20px;
   font-weight: bold;
 }
 .input-control input {
@@ -44,12 +44,25 @@ body {
 }
 #form button {
   margin-left: 50px;
-  margin-top: 20px;
+  margin-top: 5px;
   font-family: "Poppins", serif;
   font-weight: bold;
   width: 80%;
-  padding: 20px;
+  padding: 10px;
   border: none;
   background-color: #720e9e;
   color: white;
+}
+
+.input-control.success input {
+  border-color: #347433;
+}
+.input-control.error input {
+  border-color: #b22222;
+}
+
+.input-control .error {
+  color: red;
+  font-size: 20px;
+  height: 20px;
 }

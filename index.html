@@ -11,7 +11,7 @@
         <h1 class="text-center-form">Form Validation</h1>
         <div class="input-control">
           <label for="username">Username</label> <br />
-          <input type="text" id="username" name="username" />
+          <input type="text" id="username" name="username" required />
           <div class="error"></div>
         </div>
         <div class="input-control">
@@ -22,6 +22,11 @@
         <div class="input-control">
           <label for="password">Password</label> <br />
           <input type="password" id="password" name="password" />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="password">Confirm Password</label> <br />
+          <input type="password" id="password2" name="password" />
           <div class="error"></div>
         </div>
         <button class="submit">Sign Up</button>
